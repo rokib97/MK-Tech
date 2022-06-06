@@ -1,22 +1,22 @@
 import React from "react";
-
+import add from "../images/18959-removebg-preview.png";
 const Hero = () => {
   return (
     <div class="hero mt-16 bg-base-100">
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="https://api.lorem.space/image/movie?w=260&h=400"
-          class="max-w-lg rounded-lg shadow-2xl"
-          alt=""
-        />
+        <img src={add} class="max-w-lg rounded-lg" alt="" />
         <div>
-          <h1 class="text-6xl font-bold">Box Office News!</h1>
-          <p class="py-6 text-3xl">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <h1 class="text-5xl font-bold text-secondary">
+            Global Marketing Solutions For Digital Business
+          </h1>
+          <p class="py-6 text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque
+            dolorum, omnis consequuntur nihil deserunt. Est dolorem debitis
+            beatae autem doloribus exercitationem quisquam numquam vitae.
           </p>
-          <button class="btn btn-primary">Get Started</button>
+          <button class="btn btn-primary text-base-100 font-bold">
+            Get Started
+          </button>
         </div>
       </div>
     </div>
