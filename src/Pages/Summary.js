@@ -16,7 +16,7 @@ const Summary = () => {
           <div className="card-body items-center text-center">
             <FaUsers size={50} color="blue" />
             <span className="text-3xl font-bold">
-              <CountUp delay={3} start={0} end={273} />+
+              <CountUp delay={1} start={0} end={273} />+
             </span>
             <p className="">Satisfied Customers</p>
           </div>
@@ -25,7 +25,7 @@ const Summary = () => {
           <div className="card-body items-center text-center">
             <FaUserCheck size={50} color="red" />
             <span className="text-3xl font-bold">
-              <CountUp delay={3} start={0} end={400} />+
+              <CountUp delay={1} start={0} end={400} />+
             </span>
             <p className="">Successfull Projects</p>
           </div>
@@ -34,7 +34,7 @@ const Summary = () => {
           <div className="card-body items-center text-center">
             <FaDesktop size={50} color="violet" />
             <span className="text-3xl  font-bold">
-              <CountUp delay={3} start={0} end={13} />+
+              <CountUp delay={1} start={0} end={13} />+
             </span>
             <p>Years of experiences</p>
           </div>

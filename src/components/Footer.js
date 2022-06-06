@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-12 mx-auto mt-16">
       <div className="text-center font-bold">
         <h2 className="text-2xl text-secondary">We On Social Media</h2>
-        <h2 className="text-3xl mt-4">FOLLOW US</h2>
+        <h2 className="text-xl mt-4">FOLLOW US</h2>
         <div className="flex justify-around items-center mt-6">
           <FaFacebook className="me-3 text-secondary" size={30} />
           <FaInstagram className="me-3 text-primary" size={30} />
@@ -26,23 +26,23 @@ const Footer = () => {
       </div>
       <div className="text-center font-bold">
         <h2 className="text-2xl text-secondary">Links</h2>
-        <h2 className="text-3xl mt-6">ADVERTISERS</h2>
-        <h2 className="text-3xl mt-6">PUBLISHERS</h2>
-        <h2 className="text-3xl mt-6">INFLUENCERS</h2>
-        <h2 className="text-3xl mt-6">AD FORMATS</h2>
+        <h2 className="text-xl mt-6">ADVERTISERS</h2>
+        <h2 className="text-xl mt-6">PUBLISHERS</h2>
+        <h2 className="text-xl mt-6">INFLUENCERS</h2>
+        <h2 className="text-xl mt-6">AD FORMATS</h2>
       </div>
       <div className="text-center font-bold">
         <h2 className="text-2xl text-secondary">Documentations</h2>
-        <h2 className="text-3xl mt-6">TERMS & CONDITION</h2>
-        <h2 className="text-3xl mt-6">PRIVACY POLICY</h2>
-        <h2 className="text-3xl mt-6">CANCELLATION POLICY</h2>
-        <h2 className="text-3xl mt-6">BLOG</h2>
+        <h2 className="text-xl mt-6">TERMS & CONDITION</h2>
+        <h2 className="text-xl mt-6">PRIVACY POLICY</h2>
+        <h2 className="text-xl mt-6">CANCELLATION POLICY</h2>
+        <h2 className="text-xl mt-6">BLOG</h2>
       </div>
       <div className="text-center font-bold">
         <h2 className="text-2xl text-secondary">Supports</h2>
-        <h2 className="text-3xl mt-6">FAQ</h2>
-        <h2 className="text-3xl mt-6">MEDIA KIT</h2>
-        <h2 className="text-3xl mt-6">CONTACT US</h2>
+        <h2 className="text-xl mt-6">FAQ</h2>
+        <h2 className="text-xl mt-6">MEDIA KIT</h2>
+        <h2 className="text-xl mt-6">CONTACT US</h2>
       </div>
     </div>
   );
