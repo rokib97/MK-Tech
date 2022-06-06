@@ -1,11 +1,11 @@
 import React from "react";
-
+import logo from "../images/logo.png";
 const Navbar = () => {
   return (
     <>
       <div class="navbar bg-base-100 px-12">
         <div class="flex-1">
-          <p class="text-3xl font-bold">LOGO</p>
+          <img src={logo} className="w-20" alt="" />
         </div>
         <div class="flex-none">
           <p>
