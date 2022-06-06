@@ -1,13 +1,13 @@
 import React from "react";
-import customer from "../images/cutomer.png";
-const Customer = () => {
+import marketing from "../images/marketing.png";
+const Marketing = () => {
   return (
     <div class="hero mt-16 bg-base-100">
-      <div class="hero-content flex-col lg:flex-row">
-        <img src={customer} alt="" />
-        <div className="ml-24">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src={marketing} class="max-w-lg rounded-lg" alt="" />
+        <div>
           <h1 class="text-5xl font-bold text-secondary">
-            We Bring You New Customer
+            Marketing Strategies And Advertising
           </h1>
           <p class="py-6 text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque
@@ -23,4 +23,4 @@ const Customer = () => {
   );
 };
 
-export default Customer;
+export default Marketing;

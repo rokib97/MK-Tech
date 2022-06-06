@@ -10,7 +10,7 @@ const Services = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
         accusamus eius praesentium obcaecati odio iste!
       </p>
-      <div className="px-12 mt-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 ">
+      <div className="px-12 mt-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="avatar">
             <div class="w-24 mx-auto mt-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
