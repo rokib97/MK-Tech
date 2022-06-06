@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
       </div>
       <div class="navbar bg-base-100 flex-none  px-12">
-        <li class="btn btn-ghost text-primary normal-case text-xl mr-6">
+        <li class="btn btn-ghost text-primary normal-case text-xl mr-6 ml-16">
           HOME
         </li>
         <li class="btn btn-ghost text-secondary normal-case text-xl mr-6">
